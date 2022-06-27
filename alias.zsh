@@ -8,3 +8,10 @@ alias hot='npm run hot'
 alias lint='npm run lint'
 alias i='npm i'
 alias ui='npm uninstall'
+
+# https://unix.stackexchange.com/a/125386
+mkcdir ()
+{
+  mkdir -p -- "$1" &&
+  cd -P -- "$1"
+}
