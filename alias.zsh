@@ -9,6 +9,8 @@ alias lint='npm run lint'
 alias i='npm i'
 alias ui='npm uninstall'
 
+alias st='stree'
+
 # https://unix.stackexchange.com/a/125386
 mkcdir ()
 {
