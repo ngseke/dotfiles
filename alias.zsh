@@ -10,6 +10,7 @@ alias i='npm i'
 alias ui='npm uninstall'
 
 alias st='stree'
+alias c='code .'
 
 # https://unix.stackexchange.com/a/125386
 mkcdir ()
