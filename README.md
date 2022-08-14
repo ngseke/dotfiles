@@ -2,7 +2,7 @@
 
 - https://hackmd.io/@xq/terminal
 
-## Commands
+## Download Dotfile to Corresponding Folder
 
 ### Download my `.zshrc`
 
@@ -28,4 +28,13 @@ curl https://raw.githubusercontent.com/ngseke/dotfiles/master/alias.zsh -o ${ZSH
 
 ```sh
 curl https://raw.githubusercontent.com/ngseke/dotfiles/master/iterm-profile.json -o ~/Downloads/iterm-profile.json
+```
+
+
+## Execute Script
+
+Overwrite macOS default
+
+```sh
+curl -s https://raw.githubusercontent.com/ngseke/dotfiles/master/macos-defaults.sh | sh
 ```
