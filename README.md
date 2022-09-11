@@ -30,6 +30,17 @@ curl https://raw.githubusercontent.com/ngseke/dotfiles/master/alias.zsh -o ${ZSH
 curl -O --output-dir ~/Downloads https://raw.githubusercontent.com/ngseke/dotfiles/master/iterm-profile.json
 ```
 
+### Download font
+
+```sh
+curl -O --output-dir ~/Library/Fonts https://raw.githubusercontent.com/ngseke/dotfiles/master/fonts/LigaLigaturizedMenlo-Regular.ttf
+```
+
+Usage:
+```sass
+font-family: "Liga Ligaturized Menlo", "Hiragino Maru Gothic ProN"
+```
+
 ## Execute Script
 
 Overwrite macOS default
