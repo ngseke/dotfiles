@@ -6,17 +6,17 @@
 
 ### Download my `.zshrc`
 
-> **Warning**
-> 想清楚再執行
-
 ```sh
-curl https://raw.githubusercontent.com/ngseke/dotfiles/master/.zshrc -o ~/.zshrc
+# 先備份當前的 `.zshrc`
+cp ~/.zshrc ~/.zshrc_$(date -u +"%Y-%m-%dT%H:%M:%SZ")
+# 下載 `.zshrc` 至家目錄
+curl -O --output-dir ~/ https://raw.githubusercontent.com/ngseke/dotfiles/master/.zshrc
 ```
 
 ### Download my `.p10k.zsh`
 
 ```sh
-curl https://raw.githubusercontent.com/ngseke/dotfiles/master/.p10k.zsh -o ~/.p10k.zsh
+curl -O --output-dir ~/ https://raw.githubusercontent.com/ngseke/dotfiles/master/.p10k.zsh
 ```
 
 ### Download my `alias.zsh`
@@ -27,9 +27,8 @@ curl https://raw.githubusercontent.com/ngseke/dotfiles/master/alias.zsh -o ${ZSH
 ### Download my `iterm-profile.json`
 
 ```sh
-curl https://raw.githubusercontent.com/ngseke/dotfiles/master/iterm-profile.json -o ~/Downloads/iterm-profile.json
+curl -O --output-dir ~/Downloads https://raw.githubusercontent.com/ngseke/dotfiles/master/iterm-profile.json
 ```
-
 
 ## Execute Script
 
