@@ -6,10 +6,10 @@ alias start='npm run start'
 alias dev='npm run dev'
 alias hot='npm run hot'
 alias lint='npm run lint'
-alias i='npm i'
+alias i='ni'
 alias ui='npm uninstall'
 
-alias st='stree'
+alias s='stree'
 alias c='code .'
 
 # https://unix.stackexchange.com/a/125386
