@@ -11,6 +11,7 @@ alias ui='npm uninstall'
 
 alias s='stree'
 alias c='code .'
+alias o='open .'
 
 # https://unix.stackexchange.com/a/125386
 mkcdir ()
