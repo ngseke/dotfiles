@@ -27,7 +27,7 @@ curl https://raw.githubusercontent.com/ngseke/dotfiles/master/alias.zsh -o ${ZSH
 ### Download my `iterm-profile.json`
 
 ```sh
-curl https://raw.githubusercontent.com/ngseke/dotfiles/master/iterm-profile.json -o ~/Downloads/iterm-profile.json 
+curl https://raw.githubusercontent.com/ngseke/dotfiles/master/iterm-profile.json -o ~/Downloads/iterm-profile.json
 ```
 
 ### Download font
