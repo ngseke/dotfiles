@@ -7,6 +7,8 @@ alias dev='npm run dev'
 alias lint='npm run lint'
 alias i='ni'
 
+alias nv='node -v'
+
 alias a='alias'
 alias ag='alias | grep'
 alias c='code .'
